@@ -15,7 +15,7 @@ namespace BackEnd.Controllers
             _usuarioService = usuarioService;
         }
 
-
+        // GET: api/Usuario/obtenertodoslosusuarios
         [HttpGet("obtenertodoslosusuarios")]
         public IActionResult GetTodosLosUsuarios()
         {
